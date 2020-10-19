@@ -49,7 +49,7 @@ If you see `=* ruby-2.6.1`, Ruby is installed and 2.6.1 set as the default versi
 > If you do not see `ruby-2.6.1` at all, install it with the following command:
 > 
 > ```sh
-> rvm install ruby-2.6.12.6.1
+> rvm install ruby-2.6.1
 > ```
 
 > If `ruby-2.6.1` is listed, but is not preceded by `=*`, make it the default version by running:
