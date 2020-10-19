@@ -68,10 +68,10 @@ nvm
 
 If you see a message ending with `“Note: to remove, delete, or uninstall nvm…”`, NVM is installed. 
 
-> If the `nvm` command is not recognized, install NVM with the following command:
+> If the `nvm` command is not recognized or you see an error `complete:13: command not found: compdef`, run the following command:
 > 
 > ```sh
-> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | zsh
+> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 > ```
 
 ### Verify Node is Installed
