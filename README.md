@@ -4,11 +4,15 @@ If you are having trouble getting RVM, Ruby, Nvm, or Node to work, you may have 
 
 The first command makes a backup of your current `.zshrc` file:
 
+```sh
 mv ~/.zshrc{,.bak}
+```
 
 The second command replaces the contents of your `.zshrc` file with a default dot file:
 
+```sh
 curl -sSL https://raw.githubusercontent.com/flatiron-school/dotfiles/master/.zshrc > ~/.zshrc
+```
 
 Close and reopen your terminal. With a new `.zshrc` file, we can now test out each tool.
 
@@ -16,7 +20,7 @@ Close and reopen your terminal. With a new `.zshrc` file, we can now test out ea
 
 To confirm that RVM is working, run:
 
-```
+```sh
 rvm
 ```
 
@@ -26,7 +30,7 @@ If you see a long message ending in “For additional documentation please visit
 
 To confirm Ruby is installed, run:
 
-```
+```sh
 rvm list
 ```
 
@@ -34,13 +38,13 @@ If you see `=* ruby-2.6.1`, Ruby is installed and 2.6.1 set as the default versi
 
 If you do not see `ruby-2.6.1` at all, install it with the following command:
 
-```
+```sh
 rvm install ruby-2.6.12.6.1
 ```
 
 If `ruby-2.6.1` is listed, but is not preceded by `=*`, make it the default version by running:
 
-```
+```sh
 rvm use 2.6.1 --default
 ```
 
@@ -48,13 +52,13 @@ rvm use 2.6.1 --default
 
 To confirm NVM is installed, run:
 
-```
+```sh
 nvm
 ```
 
 If you see a message ending with “Note: to remove, delete, or uninstall nvm…”, nvm is installed. If the `nvm` command is not recognized, install NVM with the following command:
 
-```
+```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | zsh
 ```
 
@@ -62,7 +66,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.36.0/install.sh | zsh
 
 To confirm Node is installed, run:
 
-```
+```sh
 nvm list
 ```
 
